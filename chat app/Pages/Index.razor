@@ -1,0 +1,106 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@using chat_app.Data
+@inject NavigationManager NavigationManager
+@****************Notification part***************@
+<div id="noti_Container">
+    <div class="ikrNoti_Counter">@currentUserMsgList.Count()</div>
+    <div class="ikrNoti_Button" style="background: #2E467C;" @onclick="NotificationHideShow"></div>
+    <div class="ikrNotifications" style="display: @BoxCss !important" @onclick="NotificationHideShow">
+        <h3>Notifications (<span class="notificationCounterOnHead">@currentUserMsgList.Count()</span>)</h3>
+        <div class="ikrNotificationItems">
+            @foreach (var nmObj in currentUserMsgList)
+            {
+                <div class="ikrSingleNotiDiv" notiId="@nmObj.MsgId">
+                    <h4 class="ikrNotiFormPropName">Sender:@nmObj.SenderName</h4>
+                    <h5 class="ikrNotificationTitel">@nmObj.MsgTitle</h5>
+                    <h5 class="ikrNotificationBody">@nmObj.MsgBody</h5>
+                    <div class="ikrNotiCreateDate">@nmObj.MsgDateSt</div>
+
+                </div>
+            }
+        </div>
+        <div class="ikrSeeAll"><a href="#">See All</a></div>
+    </div>
+
+</div>
+@****************End Notification part***************@
+
+@****************Send Message part***************@
+<br />
+<br />
+<div class=" row">
+    Sender Name :
+    <input type="text" @bind="notificationMesssage.SenderName" placeholder="Sender Name" />
+</div>
+<br />
+<br />
+<div class="row">
+    Receiver Name :
+    <input type="text" @bind="notificationMesssage.ReceiverName" placeholder="Receiver Name" />
+</div>
+<br />
+<br />
+<div class=" row">
+    Message Title :
+    <input type="text" @bind="notificationMesssage.MsgTitle" placeholder="Title" />
+</div>
+<br />
+<br />
+<div class="row">
+    Message Body :
+    <textarea type="text" @bind="notificationMesssage.MsgBody" placeholder="Body" />
+</div>
+<br />
+<br />
+<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+
+@****************End Send Message part***************@
+
+@code{
+    private List<NotificationMessage> allNotificationMsgs = new List<NotificationMessage>();
+    private List<NotificationMessage> currentUserMsgList = new List<NotificationMessage>();
+    private NotificationMessage notificationMesssage = new NotificationMessage();
+
+    private HubConnection hupConnnection;
+    private string BoxCss = "none";
+
+    protected override async Task OnInitializedAsync()
+    {
+        hupConnnection = new HubConnectionBuilder().WithUrl(NavigationManager.ToAbsoluteUri("/chatHub")).Build();
+        hupConnnection.On<string, string, string, string>("ReceiveMessage", (senderName, receiverName, title, message) =>
+        {
+            allNotificationMsgs.Add(new NotificationMessage()
+            {
+                MsgId = allNotificationMsgs.Count() + 1,
+                SenderName = senderName,
+                ReceiverName = receiverName,
+                MsgTitle = title,
+                MsgBody = message
+            });
+            currentUserMsgList = allNotificationMsgs.Where(x => x.SenderName != notificationMesssage.SenderName).ToList();
+            StateHasChanged();
+
+        });
+        await hupConnnection.StartAsync();
+
+    }
+    private async Task Send()
+    {
+        await hupConnnection.SendAsync("sendMessage", notificationMesssage.SenderName
+                                                    , notificationMesssage.ReceiverName
+                                                    , notificationMesssage.MsgBody
+                                                    , notificationMesssage.MsgTitle);
+        notificationMesssage.MsgTitle = "";
+        notificationMesssage.MsgBody = "";
+    }
+    public bool IsConnected => hupConnnection.State == HubConnectionState.Connected;
+    private void NotificationHideShow()
+    {
+        if (BoxCss == "none") BoxCss = "block";
+        else BoxCss = "none";
+    }
+}
+
+
+

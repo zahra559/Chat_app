@@ -1,0 +1,68 @@
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\appsettings.Development.json
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\appsettings.json
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.StaticWebAssets.xml
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.exe
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.deps.json
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.runtimeconfig.json
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.runtimeconfig.dev.json
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\ref\chat app.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.pdb
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.Views.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\chat app.Views.pdb
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\vs2019\chat app\chat app\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.csprojAssemblyReference.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.GeneratedMSBuildEditorConfig.editorconfig
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.AssemblyInfoInputs.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.AssemblyInfo.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.csproj.CoreCompileInputs.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.MvcApplicationPartsAssemblyInfo.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorComponent.input.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorComponent.output.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\RazorDeclaration\chat app.dll
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.TagHelpers.input.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.TagHelpers.output.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorCoreGenerate.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorAssemblyInfo.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorAssemblyInfo.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\staticwebassets\chat app.StaticWebAssets.Manifest.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\staticwebassets\chat app.StaticWebAssets.xml
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\scopedcss\bundle\chat app.styles.css
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\scopedcss\projectbundle\chat app.bundle.scp.css
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorTargetAssemblyInfo.cache
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.RazorTargetAssemblyInfo.cs
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.Views.pdb
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.csproj.CopyComplete
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.dll
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\ref\chat app.dll
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.pdb
+C:\vs2019\chat app\chat app\obj\Debug\net5.0\chat app.genruntimeconfig.cache
